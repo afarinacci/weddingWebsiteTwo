@@ -41,12 +41,14 @@ class RSVPForm extends React.Component {
       will_attend: this.state.will_attend,
       use_shuttle: this.state.use_shuttle
     };
-    emailjs.send('smtp_server', templateID, templateParams, userID).then(
+    emailjs.send('gmail', templateID, templateParams, userID).then(
       response => {
+        console.log(templateParams);
         console.log('SUCCESS!', response.status, response.text);
         this.setState({ alertSuccessVisible: true });
       },
       err => {
+        console.log(templateParams);
         console.log('FAILED...', err);
         this.setState({ alertFailureVisible: true });
       }
