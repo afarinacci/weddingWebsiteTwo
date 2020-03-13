@@ -35,7 +35,7 @@ class ContactForm extends React.Component {
       reply_to: this.state.email,
       message_html: this.state.message
     };
-    emailjs.send('smtp_server', templateID, templateParams, userID).then(
+    emailjs.send('gmail', templateID, templateParams, userID).then(
       response => {
         console.log('SUCCESS!', response.status, response.text);
         this.setState({ alertSuccessVisible: true });
