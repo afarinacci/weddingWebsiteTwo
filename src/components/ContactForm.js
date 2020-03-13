@@ -69,7 +69,8 @@ class ContactForm extends React.Component {
           toggle={this.onDismiss}
           fade={false}
         >
-          Sorry, we encountered an error in sending your message.
+          Sorry, we encountered an error in sending your message. Please email
+          your message to afarinac.14@gmail.com.
         </Alert>
         <FormGroup row>
           <Label for="contactName" md={2}>

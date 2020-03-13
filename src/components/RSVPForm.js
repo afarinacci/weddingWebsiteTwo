@@ -88,7 +88,7 @@ class RSVPForm extends React.Component {
           fade={false}
         >
           Sorry, we encountered an error in sending your RSVP. Please email your
-          RSVP to andreafarinacci@me.com.
+          RSVP to afarinac.14@gmail.com.
         </Alert>
         <FormGroup row>
           <Label for="names" md={3}>
