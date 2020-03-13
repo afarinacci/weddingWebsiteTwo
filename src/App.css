@@ -42,6 +42,10 @@ main {
 .socialIcon {
   display: inline;
 }
+.socialIcon:hover {
+  text-decoration: none;
+  color: #d4af37;
+}
 .socialIconRight {
   margin-left: 20px;
 }
@@ -112,14 +116,16 @@ main {
   text-align: center;
 }
 .pageImage {
-  width: 100%;
   height: auto;
-  max-width: 800px;
+  max-width: 100%;
 }
 .collage {
-  width: 100%;
   height: auto;
-  max-width: 800px;
+  max-width: 100%;
+}
+.welcomeMessage {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .formBtn {
   color: white;
@@ -142,6 +148,7 @@ main {
 }
 .iconLink:hover {
   text-decoration: none;
+  color: #d4af37;
 }
 
 .countdown {

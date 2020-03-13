@@ -42,38 +42,40 @@ class Home extends React.Component {
             <Newcarousel />
           </section>
           <br />
-          <h1
-            style={{
-              fontFamily: 'Satisfy, cursive'
-            }}
-            className="text-center"
-          >
-            We're Getting Married!
-          </h1>
-          <p>
-            Welcome to our wedding website! We created this website to help you
-            plan for our big day. You will find important information regarding
-            our wedding weekend, such as event details, hotel block information,
-            travel tips, and more.
-            <br />
-            <br />
-            Please come back to RSVP when you receive your formal invitation.
-            <br />
-            <br />
-            We're so excited to share this special day with all of our favorite
-            people.
-            <br />
-            <br />
-            Love,
-          </p>
-          <h3
-            style={{
-              fontFamily: 'Satisfy, cursive',
-              marginTop: '0rem'
-            }}
-          >
-            Andrea Farinacci &amp; Stephen Scannell
-          </h3>
+          <section className="welcomeMessage">
+            <h1
+              style={{
+                fontFamily: 'Satisfy, cursive'
+              }}
+              className="text-center"
+            >
+              We're Getting Married!
+            </h1>
+            <p>
+              Welcome to our wedding website! We created this website to help
+              you plan for our big day. You will find important information
+              regarding our wedding weekend, such as event details, hotel block
+              information, travel tips, and more.
+              <br />
+              <br />
+              Please come back to RSVP when you receive your formal invitation.
+              <br />
+              <br />
+              We're so excited to share this special day with all of our
+              favorite people.
+              <br />
+              <br />
+              Love,
+            </p>
+            <h3
+              style={{
+                fontFamily: 'Satisfy, cursive',
+                marginTop: '0rem'
+              }}
+            >
+              Andrea Farinacci &amp; Stephen Scannell
+            </h3>
+          </section>
           <br />
           <div className="row">
             <div className="col-6 col-md-4 iconCol">
