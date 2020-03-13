@@ -94,10 +94,6 @@ main {
   position: relative;
   filter: drop-shadow(2px 2px #333);
 }
-.collage {
-  width: 100%;
-  max-width: 800px;
-}
 .eventIcon {
   height: 200px;
   width: auto;
@@ -118,10 +114,12 @@ main {
 .pageImage {
   height: auto;
   max-width: 100%;
+  text-align: center;
 }
 .collage {
   height: auto;
   max-width: 100%;
+  text-align: center;
 }
 .welcomeMessage {
   padding-top: 30px;

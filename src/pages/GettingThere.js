@@ -9,7 +9,7 @@ function GettingThere() {
         <h1 className="text-center pageTitle goldtext">Getting There</h1>
       </div>
       <main className="container-fluid paddingAround max800">
-        <div className="d-flex justify-content-center">
+        <div className="">
           <img
             src="https://lh3.googleusercontent.com/7aT2i8EG_ZD7odQs_bCk3gMOBIOsgVU6NbLklAoit45ynljY-d0E2fMnmltZQc1C8wjgBZwJ3zZX_rv77JB-yxCRnKjUevNnTZO_Zy6S2sEalq3dUfkbOz-5bp59BX0XdLYfU48grl0=w2400"
             alt="Hyatt Regency"

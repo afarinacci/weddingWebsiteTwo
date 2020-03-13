@@ -9,7 +9,7 @@ function Hotel() {
         <h1 className="text-center pageTitle goldtext">Hotel</h1>
       </div>
       <main className="container-fluid paddingAround max800">
-        <div className="d-flex justify-content-center">
+        <div className="">
           <img
             src="https://lh3.googleusercontent.com/cCOQcq2mVGEQKAnkw2IIRd8O0no5BjQ1l41x2krV7TIGZlsdCMts-WcqAX7-Hi0JndDpOu-EiG8_voNZXjS3okQvl8WYJ8tzaNjoYWkYbSierXSrh73-2S59c266ct38L9vdst5Fxg4=w2400"
             alt="Hyatt Regency"
