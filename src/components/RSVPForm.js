@@ -92,7 +92,7 @@ class RSVPForm extends React.Component {
         </Alert>
         <FormGroup row>
           <Label for="names" md={3}>
-            Name(s)
+            Full Name(s)
           </Label>
           <Col md={9} className="mb-auto mt-auto">
             <Input
