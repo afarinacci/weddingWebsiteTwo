@@ -53,13 +53,13 @@ function Hotel() {
 
         <p>
           If you need additional assistance, please contact Hyatt customer
-          service at 877-803-7534 or click{' '}
+          service at 877-803-7534 or{' '}
           <a
             href="https://about.hyatt.com/en/contact.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            here
+            click here
           </a>{' '}
           to find contact information by region.
         </p>
