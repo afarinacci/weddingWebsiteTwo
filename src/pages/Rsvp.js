@@ -15,7 +15,7 @@ function Rsvp() {
         </h1>
       </div>
       <main className="container-fluid paddingAround max800">
-        <h4 className="text-center">Kindly reply by May 15, 2020.</h4>
+        <h4 className="text-center">RSVP by the 15th of May.</h4>
         <br />
         <RSVPForm />
       </main>

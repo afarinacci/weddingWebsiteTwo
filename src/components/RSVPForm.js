@@ -99,6 +99,7 @@ class RSVPForm extends React.Component {
               type="text"
               name="names"
               id="names"
+              placeholder="Mr. John Doe and Mrs. Jane Doe"
               onChange={this.handleInputChange}
               value={this.state.names}
               required
@@ -245,6 +246,12 @@ class RSVPForm extends React.Component {
             />
           </Col>
         </FormGroup>
+        <br />
+        <p>
+          Note: Ceremony to start promptly at 11:30am. Please plan to arrive at
+          the venue at 11:00am.
+        </p>
+        <br />
         <FormGroup row className="">
           <Col className="text-center">
             <Button type="submit" color="primary" className="formBtn">
