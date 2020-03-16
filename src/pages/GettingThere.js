@@ -9,17 +9,12 @@ function GettingThere() {
         <h1 className="text-center pageTitle goldtext">Getting There</h1>
       </div>
       <main className="container-fluid paddingAround max800">
-        <a
-          href="https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="https://lh3.googleusercontent.com/7aT2i8EG_ZD7odQs_bCk3gMOBIOsgVU6NbLklAoit45ynljY-d0E2fMnmltZQc1C8wjgBZwJ3zZX_rv77JB-yxCRnKjUevNnTZO_Zy6S2sEalq3dUfkbOz-5bp59BX0XdLYfU48grl0=w2400"
-            alt="Hyatt Regency"
-            className="pageImage"
-          ></img>
-        </a>
+        <img
+          src="https://lh3.googleusercontent.com/7aT2i8EG_ZD7odQs_bCk3gMOBIOsgVU6NbLklAoit45ynljY-d0E2fMnmltZQc1C8wjgBZwJ3zZX_rv77JB-yxCRnKjUevNnTZO_Zy6S2sEalq3dUfkbOz-5bp59BX0XdLYfU48grl0=w2400"
+          alt="Hyatt Regency"
+          className="pageImage"
+        ></img>
+        <br />
         <br />
         <p>
           We recommend out-of-town guests fly into Newark Liberty International
