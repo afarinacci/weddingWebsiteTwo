@@ -6,7 +6,7 @@ class Particlebanner extends React.Component {
     return (
       <Particles
         width="100%"
-        height="180px"
+        height="264px"
         params={{
           particles: {
             number: {
