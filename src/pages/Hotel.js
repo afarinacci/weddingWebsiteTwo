@@ -33,7 +33,14 @@ function Hotel() {
         <p>
           We reserved a block of rooms at the Hyatt Regency New Brunswick.{' '}
           <span style={{ fontWeight: 'bold' }}>
-            Please book through our online reservation link
+            Please book through our{' '}
+            <a
+              href="https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              online reservation link
+            </a>
           </span>
           .
         </p>
