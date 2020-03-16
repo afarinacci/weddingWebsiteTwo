@@ -137,7 +137,7 @@ class CustomNavbar extends React.Component {
                   onClick={this.closeNavbar}
                   activeClassName="active"
                 >
-                  RSVP
+                  <span className="RSVPlink">RSVP</span>
                 </NavLink>
               </NavItem>
             </Nav>

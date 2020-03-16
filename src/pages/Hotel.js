@@ -44,7 +44,6 @@ function Hotel() {
             href="https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ fontWeight: 'bold' }}
           >
             click here
           </a>

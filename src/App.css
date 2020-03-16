@@ -148,6 +148,10 @@ main {
   text-decoration: none;
   color: #d4af37;
 }
+.RSVPlink {
+  color: #d4af37;
+  font-weight: 600;
+}
 
 .countdown {
   color: white;
