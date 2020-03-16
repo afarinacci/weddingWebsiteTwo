@@ -33,28 +33,19 @@ function Hotel() {
         <p>
           We reserved a block of rooms at the Hyatt Regency New Brunswick.{' '}
           <span style={{ fontWeight: 'bold' }}>
-            Please book through our{' '}
-            <a
-              href="https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              online reservation link
-            </a>
+            Please use group code G-AFSW or book through our online reservation
+            link
           </span>
-          .
-        </p>
-
-        <p>
-          To make your reservations, please{' '}
+          :
+          <br />
           <a
             href="https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW"
             target="_blank"
             rel="noopener noreferrer"
+            style={{ fontStyle: 'italic' }}
           >
-            click here
+            https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW
           </a>
-          .
         </p>
 
         <p>
