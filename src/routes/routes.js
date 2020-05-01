@@ -10,7 +10,6 @@ import OurStory from '../pages/OurStory';
 import Gallery from '../pages/Gallery';
 import Hotel from '../pages/Hotel';
 import Rsvp from '../pages/Rsvp';
-import Registry from '../pages/Registry';
 
 const Routes = () => (
   <Switch>
@@ -22,7 +21,6 @@ const Routes = () => (
     <Route exact path="/gallery" component={Gallery}></Route>
     <Route exact path="/hotel" component={Hotel}></Route>
     <Route exact path="/rsvp" component={Rsvp}></Route>
-    <Route exact path="/registry" component={Registry}></Route>
     <Route component={NotFound} />
   </Switch>
 );

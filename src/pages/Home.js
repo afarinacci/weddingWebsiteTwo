@@ -9,7 +9,7 @@ import {
   faBed,
   faHeart,
   faCheckSquare,
-  faCamera
+  faCamera,
 } from '@fortawesome/free-solid-svg-icons';
 
 class Home extends React.Component {
@@ -29,23 +29,23 @@ class Home extends React.Component {
           <h1 className="text-center pageTitle goldtext">
             Andrea &amp; Stephen
           </h1>
-          <h1 className="text-center weddingDate goldtext">6.20.2020</h1>
+          <h1 className="text-center weddingDate goldtext">12.21.2020</h1>
         </div>
         <main className="container-fluid paddingAround max800">
           <section
             style={{
               maxWidth: '800px',
               marginLeft: 'auto',
-              marginRight: 'auto'
+              marginRight: 'auto',
             }}
           >
             <Newcarousel />
           </section>
           <br />
-          <section className="welcomeMessage">
+          {/* <section className="welcomeMessage">
             <h1
               style={{
-                fontFamily: 'Satisfy, cursive'
+                fontFamily: 'Satisfy, cursive',
               }}
               className="text-center"
             >
@@ -70,7 +70,45 @@ class Home extends React.Component {
             <h3
               style={{
                 fontFamily: 'Satisfy, cursive',
-                marginTop: '0rem'
+                marginTop: '0rem',
+              }}
+            >
+              Andrea Farinacci &amp; Stephen Scannell
+            </h3>
+          </section> */}
+          <section className="welcomeMessage">
+            <h1
+              style={{
+                fontFamily: 'Satisfy, cursive',
+              }}
+              className="text-center"
+            >
+              Our New Date
+            </h1>
+            <p>
+              In light of current events, we are postponing our wedding. We
+              apologize for any inconvenience this may have caused, and look
+              forward to celebrating with you. Please mark your calendars with
+              our new wedding date of Monday, December 21st, 2020!
+              <br />
+              <br />
+              Please check out the{' '}
+              <Link to="/events" className="iconLink" onClick={this.scrollTop}>
+                events
+              </Link>{' '}
+              page for updated event details.
+              <br />
+              <br />
+              We're so excited to share this special day with all of our
+              favorite people.
+              <br />
+              <br />
+              Love,
+            </p>
+            <h3
+              style={{
+                fontFamily: 'Satisfy, cursive',
+                marginTop: '0rem',
               }}
             >
               Andrea Farinacci &amp; Stephen Scannell

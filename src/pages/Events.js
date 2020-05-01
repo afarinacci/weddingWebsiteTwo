@@ -19,8 +19,8 @@ function Events() {
             <img src={balloons} alt="Welcome Drinks" className="eventIcon" />
             <h1 className="eventTitle">Welcome Drinks</h1>
             <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Friday, June
-              19th, 2020 <br />
+              <span style={{ fontWeight: 'bold' }}>Date:</span> Sunday, December
+              20th, 2020 <br />
               <span style={{ fontWeight: 'bold' }}>Time:</span> 7 - 9 PM <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Glass Woods
               Tavern{' '}
@@ -34,31 +34,31 @@ function Events() {
             <img src={weddingrings} alt="Ceremony" className="eventIcon" />
             <h1 className="eventTitle">Ceremony</h1>
             <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Saturday, June
-              20th, 2020 <br />
-              <span style={{ fontWeight: 'bold' }}>Time:</span> 11:30 AM - 12 PM{' '}
+              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, December
+              21st, 2020 <br />
+              <span style={{ fontWeight: 'bold' }}>Time:</span> 4:30 - 5 PM{' '}
               <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
               Estate &amp; Gardens
             </p>
             <p>
               <span style={{ fontStyle: 'italic' }}>
-                The Ceremony will begin promptly at 11:30 AM{' '}
+                The Ceremony will begin promptly at 4:30 PM{' '}
               </span>
               <br />
-              Guests can arrive at the Park Chateau at 11 a.m. <br />
+              Guests can arrive at the Park Chateau at 4 PM <br />
               Shuttle service will be provided from the Hyatt Regency New
-              Brunswick at 10:20am. <br />
-              There is also on-site parking for local guests.
+              Brunswick at 3:20 PM. There is also on-site parking for local
+              guests.
             </p>
           </div>
           <div className="col-12 col-md-6 eventCol">
             <img src={serving} alt="Cocktail Hour" className="eventIcon" />
             <h1 className="eventTitle">Cocktail Hour</h1>
             <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Saturday, June
-              20th, 2020 <br />
-              <span style={{ fontWeight: 'bold' }}>Time:</span> 12 - 1 PM <br />
+              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, December
+              21st, 2020 <br />
+              <span style={{ fontWeight: 'bold' }}>Time:</span> 5 - 6 PM <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
               Estate &amp; Gardens
             </p>
@@ -68,9 +68,9 @@ function Events() {
             <img src={cake} alt="Reception" className="eventIcon" />
             <h1 className="eventTitle">Reception</h1>
             <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Saturday, June
-              20th, 2020 <br />
-              <span style={{ fontWeight: 'bold' }}>Time:</span> 1 - 5 PM <br />
+              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, December
+              21st, 2020 <br />
+              <span style={{ fontWeight: 'bold' }}>Time:</span> 6 - 10 PM <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
               Estate &amp; Gardens
             </p>
@@ -81,23 +81,26 @@ function Events() {
               <br />
               A plated dinner will be served. <br />
               Guests will order from a menu at their table. <br />
-              Guests will be shuttled back to the Hyatt Regency New Brunswick at
-              the end of the Reception.
+              Guests can take the shuttle back to the Hyatt Regency New
+              Brunswick at the end of the Reception, or stay for the After
+              Party.
             </p>
           </div>
           <div className="col-12 col-md-6 eventCol">
             <img src={champagne} alt="After Party" className="eventIcon" />
             <h1 className="eventTitle">After Party</h1>
             <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Saturday, June
-              20th, 2020 <br />
-              <span style={{ fontWeight: 'bold' }}>Time:</span> 5:30 PM <br />
-              <span style={{ fontWeight: 'bold' }}>Location:</span> Glass Woods
-              Tavern{' '}
+              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, December
+              21st, 2020 <br />
+              <span style={{ fontWeight: 'bold' }}>Time:</span> 10 - 11 PM{' '}
+              <br />
+              <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
+              Estate &amp; Gardens
             </p>
             <p>
-              The after party will take place at Glass Woods Tavern, located
-              inside the Hyatt Regency New Brunswick.
+              The party will continue with drinks and late-night bites. Guests
+              will be shuttled back to the Hyatt Regency New Brunswick at the
+              end of the After Party.
             </p>
           </div>
         </div>

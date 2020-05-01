@@ -23,9 +23,14 @@ function Hotel() {
           The hotel is located 8 miles from the wedding venue.
         </p>
         <br />
+        <h5 style={{ fontStyle: 'italic' }}>
+          Note: If you have already booked your hotel for the weekend of
+          6/20/2020, we will move your reservation to our new date, 12/21/20.{' '}
+        </h5>
+        <br />
         <h3
           style={{
-            fontFamily: 'Satisfy, cursive'
+            fontFamily: 'Satisfy, cursive',
           }}
         >
           How to Book
@@ -68,7 +73,7 @@ function Hotel() {
         <br />
         <h3
           style={{
-            fontFamily: 'Satisfy, cursive'
+            fontFamily: 'Satisfy, cursive',
           }}
         >
           Guestroom Rates
@@ -80,7 +85,7 @@ function Hotel() {
         <br />
         <h3
           style={{
-            fontFamily: 'Satisfy, cursive'
+            fontFamily: 'Satisfy, cursive',
           }}
         >
           Parking

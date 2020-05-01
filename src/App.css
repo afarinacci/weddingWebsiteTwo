@@ -27,6 +27,21 @@ nav {
 .nav-item {
   font-size: 1.1rem;
 }
+
+.dropdown-menu {
+  background-color: var(--primary);
+  color: white;
+  border: 1px solid white;
+}
+.dropdown-item {
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold;
+}
+.dropdown-item:hover {
+  background-color: var(--primary);
+  color: white;
+}
 footer {
   width: 100vw;
   padding: 15px;

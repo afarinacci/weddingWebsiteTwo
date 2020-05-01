@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookSquare,
-  faInstagram
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 import Countdown from './Countdown';
 
@@ -11,7 +11,7 @@ function Footer() {
     <footer className="bg-primary text-center">
       <div className="row  justify-content-center">
         <Countdown
-          timeTillDate="06 20 2020, 11:30 am"
+          timeTillDate="12 21 2020, 04:30 pm"
           timeFormat="MM DD YYYY, h:mm a"
         />
       </div>

@@ -12,7 +12,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  Collapse
+  Collapse,
 } from 'reactstrap';
 import logo from './../images/Logo.png';
 
@@ -25,7 +25,7 @@ class CustomNavbar extends React.Component {
     this.scrollTop = this.scrollTop.bind(this);
   }
   toggleNavbar() {
-    this.setState(state => ({ collapsed: !state.collapsed }));
+    this.setState((state) => ({ collapsed: !state.collapsed }));
   }
   closeNavbar() {
     if (this.state.collapsed !== true) {
@@ -110,16 +110,35 @@ class CustomNavbar extends React.Component {
                   Gallery
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  to="/registry"
-                  tag={RRNavLink}
-                  onClick={this.closeNavbar}
-                  activeClassName="active"
-                >
+
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
                   Registry
-                </NavLink>
-              </NavItem>
+                </DropdownToggle>
+                <DropdownMenu className="text-center">
+                  <DropdownItem>
+                    <NavLink
+                      href="https://www.amazon.com/wedding/share/farinacci-scannell"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={this.closeNavbar}
+                    >
+                      Amazon Registry
+                    </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink
+                      href="https://www.honeyfund.com/wedding/Farinacci-Scannell"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={this.closeNavbar}
+                    >
+                      Honeymoon Fund
+                    </NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
               <NavItem>
                 <NavLink
                   to="/contact"

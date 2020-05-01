@@ -13,7 +13,7 @@ class RSVPForm extends React.Component {
       message: '',
       guest_name: '',
       will_attend: '',
-      use_shuttle: ''
+      use_shuttle: '',
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleInputChange = this.handleInputChange.bind(this);
@@ -24,7 +24,7 @@ class RSVPForm extends React.Component {
     const value = target.type === 'radio' ? target.value : target.value;
     const name = target.name;
     this.setState({
-      [name]: value
+      [name]: value,
     });
   }
   handleSubmit(e) {
@@ -39,15 +39,15 @@ class RSVPForm extends React.Component {
       message: this.state.message,
       guest_name: this.state.guest_name,
       will_attend: this.state.will_attend,
-      use_shuttle: this.state.use_shuttle
+      use_shuttle: this.state.use_shuttle,
     };
     emailjs.send('gmail', templateID, templateParams, userID).then(
-      response => {
+      (response) => {
         console.log(templateParams);
         console.log('SUCCESS!', response.status, response.text);
         this.setState({ alertSuccessVisible: true });
       },
-      err => {
+      (err) => {
         console.log(templateParams);
         console.log('FAILED...', err);
         this.setState({ alertFailureVisible: true });
@@ -64,7 +64,7 @@ class RSVPForm extends React.Component {
       message: '',
       guest_name: '',
       will_attend: '',
-      use_shuttle: ''
+      use_shuttle: '',
     });
   }
   onDismiss() {
@@ -192,10 +192,10 @@ class RSVPForm extends React.Component {
           <Col md={12} className="row mb-auto mt-auto">
             <Label>
               We are providing shuttle buses for wedding guests from the Hyatt
-              Regency to the Park Chateau at 10:20am, and from the Park Chateau
-              to the Hyatt Regency at 5pm. In order for us to adequately
-              prepare, please let us know if you intend on utilizing the shuttle
-              buses.
+              Regency to the Park Chateau at 3:20 PM, and from the Park Chateau
+              to the Hyatt Regency at 10 PM and 11 PM. In order for us to
+              adequately prepare, please let us know if you intend on utilizing
+              the shuttle buses.
             </Label>
 
             <div className="row mb-auto mt-auto">
@@ -248,8 +248,8 @@ class RSVPForm extends React.Component {
         </FormGroup>
         <br />
         <p>
-          Note: Ceremony to start promptly at 11:30am. Please plan to arrive at
-          the venue at 11:00am.
+          Note: Ceremony to start promptly at 4:30 PM. Please plan to arrive at
+          the venue at 4:00 PM.
         </p>
         <br />
         <FormGroup row className="">
