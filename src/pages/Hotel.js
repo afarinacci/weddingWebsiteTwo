@@ -23,11 +23,7 @@ function Hotel() {
           The hotel is located 8 miles from the wedding venue.
         </p>
         <br />
-        <h5 style={{ fontStyle: 'italic' }}>
-          Note: If you have already booked your hotel for the weekend of
-          6/20/2020, we will move your reservation to our new date, 12/21/20.{' '}
-        </h5>
-        <br />
+
         <h3
           style={{
             fontFamily: 'Satisfy, cursive',
@@ -36,6 +32,12 @@ function Hotel() {
           How to Book
         </h3>
         <p>
+          We are currently in the process of working with the Hyatt to transfer
+          hotel reservations. Your bookings will automatically be moved to our
+          new date. If you would like to make a new reservation, please come
+          back to our wedding website next week for an updated reservation link.
+        </p>
+        {/* <p>
           We reserved a block of rooms at the Hyatt Regency New Brunswick.{' '}
           <span style={{ fontWeight: 'bold' }}>
             Please use group code G-AFSW or book through our online reservation
@@ -51,7 +53,7 @@ function Hotel() {
           >
             https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW
           </a>
-        </p>
+        </p> */}
 
         <p>
           If you need additional assistance, please contact Hyatt customer
@@ -66,10 +68,10 @@ function Hotel() {
           to find contact information by region.
         </p>
 
-        <p>
+        {/* <p>
           If the group rate is no longer available, prevailing rates may be
           offered for some or all of your dates.
-        </p>
+        </p> */}
         <br />
         <h3
           style={{

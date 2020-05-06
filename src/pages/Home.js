@@ -89,18 +89,22 @@ class Home extends React.Component {
               In light of current events, we are postponing our wedding. We
               apologize for any inconvenience this may have caused, and look
               forward to celebrating with you. Please mark your calendars with
-              our new wedding date of Monday, December 21st, 2020!
-              <br />
-              <br />
-              Please check out the{' '}
+              our new wedding date of Monday, December 21st, 2020! Check out the{' '}
               <Link to="/events" className="iconLink" onClick={this.scrollTop}>
                 events
               </Link>{' '}
               page for updated event details.
               <br />
               <br />
-              We're so excited to share this special day with all of our
-              favorite people.
+              We are currently in the process of working with the Hyatt to
+              transfer hotel reservations. Your bookings will automatically be
+              moved to our new date. If you would like to make a new
+              reservation, please come back to our wedding website next week for
+              an updated reservation link.
+              <br />
+              <br />
+              We're so excited to share our special day with all of you this
+              December!
               <br />
               <br />
               Love,
