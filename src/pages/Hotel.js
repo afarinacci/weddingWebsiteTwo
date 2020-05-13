@@ -32,12 +32,11 @@ function Hotel() {
           How to Book
         </h3>
         <p>
-          We are currently in the process of working with the Hyatt to transfer
-          hotel reservations. Your bookings will automatically be moved to our
-          new date. If you would like to make a new reservation, please come
-          back to our wedding website next week for an updated reservation link.
+          If you booked a room for our original wedding date, Hyatt has moved
+          your reservation to our new date. If you would like to make a new
+          reservation, please use the link below.
         </p>
-        {/* <p>
+        <p>
           We reserved a block of rooms at the Hyatt Regency New Brunswick.{' '}
           <span style={{ fontWeight: 'bold' }}>
             Please use group code G-AFSW or book through our online reservation
@@ -53,7 +52,7 @@ function Hotel() {
           >
             https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW
           </a>
-        </p> */}
+        </p>
 
         <p>
           If you need additional assistance, please contact Hyatt customer
