@@ -29,7 +29,7 @@ class Home extends React.Component {
           <h1 className="text-center pageTitle goldtext">
             Andrea &amp; Stephen
           </h1>
-          <h1 className="text-center weddingDate goldtext">12.21.2020</h1>
+          <h1 className="text-center weddingDate goldtext">11.15.2021</h1>
         </div>
         <main className="container-fluid paddingAround max800">
           <section
@@ -86,10 +86,10 @@ class Home extends React.Component {
               Our New Date
             </h1>
             <p>
-              In light of current events, we are postponing our wedding. We
-              apologize for any inconvenience this may have caused, and look
+              In light of current events, we are postponing our wedding again.
+              We apologize for any inconvenience this may have caused, and look
               forward to celebrating with you. Please mark your calendars with
-              our new wedding date of Monday, December 21st, 2020! Check out the{' '}
+              our new wedding date of Monday, November 15th, 2021! Check out the{' '}
               <Link to="/events" className="iconLink" onClick={this.scrollTop}>
                 events
               </Link>{' '}
@@ -103,8 +103,8 @@ class Home extends React.Component {
               an updated reservation link.
               <br />
               <br />
-              We're so excited to share our special day with all of you this
-              December!
+              We're so excited to share our special day with all of you next
+              year!
               <br />
               <br />
               Love,

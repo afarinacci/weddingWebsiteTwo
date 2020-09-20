@@ -19,8 +19,8 @@ function Events() {
             <img src={balloons} alt="Welcome Drinks" className="eventIcon" />
             <h1 className="eventTitle">Welcome Drinks</h1>
             <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Sunday, December
-              20th, 2020 <br />
+              <span style={{ fontWeight: 'bold' }}>Date:</span> Sunday, November
+              14th, 2021 <br />
               <span style={{ fontWeight: 'bold' }}>Time:</span> 7 - 9 PM <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Glass Woods
               Tavern{' '}
@@ -34,21 +34,21 @@ function Events() {
             <img src={weddingrings} alt="Ceremony" className="eventIcon" />
             <h1 className="eventTitle">Ceremony</h1>
             <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, December
-              21st, 2020 <br />
-              <span style={{ fontWeight: 'bold' }}>Time:</span> 4:30 - 5 PM{' '}
+              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, November
+              15th, 2021 <br />
+              <span style={{ fontWeight: 'bold' }}>Time:</span> 6:00 - 6:30 PM{' '}
               <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
               Estate &amp; Gardens
             </p>
             <p>
               <span style={{ fontStyle: 'italic' }}>
-                The Ceremony will begin promptly at 4:30 PM{' '}
+                The Ceremony will begin promptly at 6 PM{' '}
               </span>
               <br />
-              Guests can arrive at the Park Chateau at 4 PM <br />
+              Guests can arrive at the Park Chateau at 5:30 PM <br />
               Shuttle service will be provided from the Hyatt Regency New
-              Brunswick at 3:20 PM. There is also on-site parking for local
+              Brunswick at 4:50 PM. There is also on-site parking for local
               guests.
             </p>
           </div>
@@ -56,9 +56,10 @@ function Events() {
             <img src={serving} alt="Cocktail Hour" className="eventIcon" />
             <h1 className="eventTitle">Cocktail Hour</h1>
             <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, December
-              21st, 2020 <br />
-              <span style={{ fontWeight: 'bold' }}>Time:</span> 5 - 6 PM <br />
+              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, November
+              15th, 2021 <br />
+              <span style={{ fontWeight: 'bold' }}>Time:</span> 6:30 - 7:30 PM{' '}
+              <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
               Estate &amp; Gardens
             </p>
@@ -68,9 +69,10 @@ function Events() {
             <img src={cake} alt="Reception" className="eventIcon" />
             <h1 className="eventTitle">Reception</h1>
             <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, December
-              21st, 2020 <br />
-              <span style={{ fontWeight: 'bold' }}>Time:</span> 6 - 10 PM <br />
+              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, November
+              15th, 2021 <br />
+              <span style={{ fontWeight: 'bold' }}>Time:</span> 7:30 - 11:30 PM{' '}
+              <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
               Estate &amp; Gardens
             </p>
@@ -84,23 +86,6 @@ function Events() {
               Guests can take the shuttle back to the Hyatt Regency New
               Brunswick at the end of the Reception, or stay for the After
               Party.
-            </p>
-          </div>
-          <div className="col-12 col-md-6 eventCol">
-            <img src={champagne} alt="After Party" className="eventIcon" />
-            <h1 className="eventTitle">After Party</h1>
-            <p>
-              <span style={{ fontWeight: 'bold' }}>Date:</span> Monday, December
-              21st, 2020 <br />
-              <span style={{ fontWeight: 'bold' }}>Time:</span> 10 - 11 PM{' '}
-              <br />
-              <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
-              Estate &amp; Gardens
-            </p>
-            <p>
-              The party will continue with drinks and late-night bites. Guests
-              will be shuttled back to the Hyatt Regency New Brunswick at the
-              end of the After Party.
             </p>
           </div>
         </div>

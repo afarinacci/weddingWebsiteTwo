@@ -19,10 +19,12 @@ function Rsvp() {
           In light of current events, we are postponing our wedding. We
           apologize for any inconvenience this may have caused, and look forward
           to celebrating with you. Please mark your calendars with our new
-          wedding date of Monday, December 21st, 2020!
+          wedding date of Monday, November 15th, 2021!
         </h5>
         <br />
-        <h4 className="text-center">Please RSVP by the 15th of November. </h4>
+        <h4 className="text-center">
+          Please RSVP by the 8th of October, 2021.{' '}
+        </h4>
         <br />
         <br />
         <RSVPForm />

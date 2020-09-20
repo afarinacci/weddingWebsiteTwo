@@ -11,7 +11,7 @@ function Footer() {
     <footer className="bg-primary text-center">
       <div className="row  justify-content-center">
         <Countdown
-          timeTillDate="12 21 2020, 04:30 pm"
+          timeTillDate="11 15 2021, 06:00 pm"
           timeFormat="MM DD YYYY, h:mm a"
         />
       </div>

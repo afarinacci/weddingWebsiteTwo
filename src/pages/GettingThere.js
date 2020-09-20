@@ -21,8 +21,8 @@ function GettingThere() {
           Airport (EWR). You have the option to drive, uber, or take a 21 minute
           train ride + 6 minute walk from the airport to the Hyatt Regency New
           Brunswick. We are providing shuttle buses for wedding guests from the
-          Hyatt Regency to the Park Chateau at 3:20 PM, and from the Park
-          Chateau to the Hyatt Regency at 10 PM and 11 PM on Monday.{' '}
+          Hyatt Regency to the Park Chateau at 4:50 PM, and from the Park
+          Chateau to the Hyatt Regency at 10:30 PM and 11:30 PM on Monday.{' '}
         </p>
         <p>
           Local guests can park at the venue, or park at the Hyatt and take the
