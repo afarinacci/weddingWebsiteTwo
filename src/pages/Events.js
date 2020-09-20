@@ -84,8 +84,7 @@ function Events() {
               A plated dinner will be served. <br />
               Guests will order from a menu at their table. <br />
               Guests can take the shuttle back to the Hyatt Regency New
-              Brunswick at the end of the Reception, or stay for the After
-              Party.
+              Brunswick at the end of the Reception.
             </p>
           </div>
         </div>
