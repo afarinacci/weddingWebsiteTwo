@@ -192,8 +192,8 @@ class RSVPForm extends React.Component {
           <Col md={12} className="row mb-auto mt-auto">
             <Label>
               We are providing shuttle buses for wedding guests from the Hyatt
-              Regency to the Park Chateau at 3:20 PM, and from the Park Chateau
-              to the Hyatt Regency at 10 PM and 11 PM. In order for us to
+              Regency to the Park Chateau at 4:50 PM, and from the Park Chateau
+              to the Hyatt Regency at 10:30 PM and 11:30 PM. In order for us to
               adequately prepare, please let us know if you intend on utilizing
               the shuttle buses.
             </Label>
@@ -248,8 +248,8 @@ class RSVPForm extends React.Component {
         </FormGroup>
         <br />
         <p>
-          Note: Ceremony to start promptly at 4:30 PM. Please plan to arrive at
-          the venue at 4:00 PM.
+          Note: Ceremony to start promptly at 6 PM. Please plan to arrive at the
+          venue at 5:30 PM.
         </p>
         <br />
         <FormGroup row className="">
