@@ -118,22 +118,22 @@ class CustomNavbar extends React.Component {
                 <DropdownMenu className="text-center">
                   <DropdownItem>
                     <NavLink
-                      href="https://www.amazon.com/wedding/share/farinacci-scannell"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={this.closeNavbar}
-                    >
-                      Amazon Registry
-                    </NavLink>
-                  </DropdownItem>
-                  <DropdownItem>
-                    <NavLink
                       href="https://www.honeyfund.com/wedding/Farinacci-Scannell"
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={this.closeNavbar}
                     >
                       Honeymoon Fund
+                    </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink
+                      href="https://www.crateandbarrel.com/gift-registry/andrea-farinacci-and-stephen-scannell/r6358759"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={this.closeNavbar}
+                    >
+                      Crate &amp; Barrel
                     </NavLink>
                   </DropdownItem>
                 </DropdownMenu>
