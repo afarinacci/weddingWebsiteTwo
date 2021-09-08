@@ -150,6 +150,7 @@ class CustomNavbar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
+                {/*}
                 <NavLink
                   to="/rsvp"
                   tag={RRNavLink}
@@ -158,6 +159,13 @@ class CustomNavbar extends React.Component {
                 >
                   <span className="RSVPlink">RSVP</span>
                 </NavLink>
+              */}
+                <NavLink
+                  href="https://www.theknot.com/us/andrea-farinacci-and-stephen-scannell-nov-2021/rsvp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={this.closeNavbar}
+                ></NavLink>
               </NavItem>
             </Nav>
           </Collapse>

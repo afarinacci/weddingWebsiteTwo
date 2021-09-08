@@ -57,19 +57,19 @@ class Home extends React.Component {
               regarding our wedding weekend, such as event details, hotel block
               information, travel tips, and more. We kindly ask that you{' '}
               <a
-                href="https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW"
+                href="https://www.theknot.com/us/andrea-farinacci-and-stephen-scannell-nov-2021/rsvp"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {' '}
                 RSVP
-              </a>
+              </a>{' '}
               by Friday, October 8th.
               <br />
               <br />
-              We sincerely appreciate your patience as we rescheduled our big
-              day. We're very much looking forward to reconnecting with all of
-              you in November.
+              We sincerely appreciate your patience as we rescheduled last year.
+              We're very much looking forward to reconnecting with all of you in
+              November.
               <br />
               <br />
               Love,
