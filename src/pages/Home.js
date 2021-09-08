@@ -42,7 +42,7 @@ class Home extends React.Component {
             <Newcarousel />
           </section>
           <br />
-          {/* <section className="welcomeMessage">
+          <section className="welcomeMessage">
             <h1
               style={{
                 fontFamily: 'Satisfy, cursive',
@@ -58,7 +58,7 @@ class Home extends React.Component {
               information, travel tips, and more.
               <br />
               <br />
-              Please come back to RSVP when you receive your formal invitation.
+              Please RSVP by Friday, October 8th.
               <br />
               <br />
               We're so excited to share this special day with all of our
@@ -75,7 +75,8 @@ class Home extends React.Component {
             >
               Andrea Farinacci &amp; Stephen Scannell
             </h3>
-          </section> */}
+          </section>
+          {/*
           <section className="welcomeMessage">
             <h1
               style={{
@@ -118,6 +119,7 @@ class Home extends React.Component {
               Andrea Farinacci &amp; Stephen Scannell
             </h3>
           </section>
+          */}
           <br />
           <div className="row">
             <div className="col-6 col-md-4 iconCol">
