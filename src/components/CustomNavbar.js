@@ -165,7 +165,9 @@ class CustomNavbar extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={this.closeNavbar}
-                ></NavLink>
+                >
+                  <span className="RSVPlink">RSVP</span>
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
