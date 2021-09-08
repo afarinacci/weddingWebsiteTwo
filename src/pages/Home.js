@@ -55,14 +55,21 @@ class Home extends React.Component {
               Welcome to our wedding website! We created this website to help
               you plan for our big day. You will find important information
               regarding our wedding weekend, such as event details, hotel block
-              information, travel tips, and more.
+              information, travel tips, and more. We kindly ask that you{' '}
+              <a
+                href="https://www.hyatt.com/en-US/group-booking/EWRRN/G-AFSW"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {' '}
+                RSVP
+              </a>
+              by Friday, October 8th.
               <br />
               <br />
-              Please RSVP by Friday, October 8th.
-              <br />
-              <br />
-              We're so excited to share this special day with all of our
-              favorite people.
+              We sincerely appreciate your patience as we rescheduled our big
+              day. We're very much looking forward to reconnecting with all of
+              you in November.
               <br />
               <br />
               Love,
