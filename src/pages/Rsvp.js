@@ -15,13 +15,6 @@ function Rsvp() {
         </h1>
       </div>
       <main className="container-fluid paddingAround max800">
-        <h5 className="text-center">
-          In light of current events, we are postponing our wedding. We
-          apologize for any inconvenience this may have caused, and look forward
-          to celebrating with you. Please mark your calendars with our new
-          wedding date of Monday, November 15th, 2021!
-        </h5>
-        <br />
         <h4 className="text-center">
           Please RSVP by the 8th of October, 2021.{' '}
         </h4>

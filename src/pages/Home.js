@@ -187,10 +187,15 @@ class Home extends React.Component {
             </div>
             <div className="col-6 col-md-4 iconCol">
               <p className="text-center">
-                <Link to="/rsvp" className="iconLink" onClick={this.scrollTop}>
+                <a
+                  className="iconLink"
+                  href="https://www.theknot.com/us/andrea-farinacci-and-stephen-scannell-nov-2021/rsvp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FontAwesomeIcon icon={faCheckSquare} size="4x" />
                   <br /> RSVP Online
-                </Link>
+                </a>
               </p>
             </div>
           </div>
