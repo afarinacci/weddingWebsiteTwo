@@ -64,7 +64,7 @@ class Home extends React.Component {
                 {' '}
                 RSVP
               </a>{' '}
-              by Friday, October 8th.
+              by Friday, October 29th.
               <br />
               <br />
               We sincerely appreciate your patience as we rescheduled last year.
