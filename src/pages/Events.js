@@ -23,7 +23,8 @@ function Events() {
               14th, 2021 <br />
               <span style={{ fontWeight: 'bold' }}>Time:</span> 7 - 9 PM <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Glass Woods
-              Tavern{' '}
+              Tavern <br />
+              <span style={{ fontWeight: 'bold' }}>Attire:</span> Casual{' '}
             </p>
             <p>
               Meet us for a drink at Glass Woods Tavern, located inside the
@@ -39,7 +40,8 @@ function Events() {
               <span style={{ fontWeight: 'bold' }}>Time:</span> 6:00 - 6:30 PM{' '}
               <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
-              Estate &amp; Gardens
+              Estate &amp; Gardens <br />
+              <span style={{ fontWeight: 'bold' }}>Attire:</span> Formal{' '}
             </p>
             <p>
               <span style={{ fontStyle: 'italic' }}>
@@ -62,6 +64,8 @@ function Events() {
               <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
               Estate &amp; Gardens
+              <br />
+              <span style={{ fontWeight: 'bold' }}>Attire:</span> Formal{' '}
             </p>
             <p>Drinks and hors d'oeuvres will be served.</p>
           </div>
@@ -75,6 +79,8 @@ function Events() {
               <br />
               <span style={{ fontWeight: 'bold' }}>Location:</span> Park Chateau
               Estate &amp; Gardens
+              <br />
+              <span style={{ fontWeight: 'bold' }}>Attire:</span> Formal{' '}
             </p>
             <p>
               <span style={{ fontStyle: 'italic' }}>
