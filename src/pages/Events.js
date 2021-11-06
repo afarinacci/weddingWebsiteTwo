@@ -89,8 +89,8 @@ function Events() {
               <br />
               A plated dinner will be served. <br />
               Guests will order from a menu at their table. <br />
-              Guests can take the shuttle back to the Hyatt Regency New
-              Brunswick at the end of the Reception.
+              Shuttle service will be provided back to the Hyatt Regency New
+              Brunswick at 10:15pm and 11:30pm.
             </p>
           </div>
         </div>
